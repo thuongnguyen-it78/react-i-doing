@@ -1,14 +1,14 @@
-import Footer from 'components/Footer/Footer';
-import Header from 'components/Header/Header';
-import NotFound from 'components/NotFound/NotFound';
-import WhatAMole from 'features/WhacAMole';
-import { Redirect, Route, Switch } from 'react-router-dom';
-import './App.css';
+import Footer from 'components/Footer/Footer'
+import Header from 'components/Header/Header'
+import NotFound from 'components/NotFound/NotFound'
+import WhatAMole from 'features/WhacAMole'
+import { Redirect, Route, Switch } from 'react-router-dom'
+import './App.scss'
 
 function App() {
   return (
     <div className="app">
-      <Header />
+      {/* <Header /> */}
 
       <Switch>
         <Redirect from="/home" to="/" exact />
@@ -19,8 +19,8 @@ function App() {
         <Route component={NotFound} />
       </Switch>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
-  );
+  )
 }
-export default App;
+export default App
