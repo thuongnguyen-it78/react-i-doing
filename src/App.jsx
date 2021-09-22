@@ -1,7 +1,7 @@
 import Footer from 'components/Footer/Footer'
 import Header from 'components/Header/Header'
 import NotFound from 'components/NotFound/NotFound'
-import WhatAMole from 'features/WhacAMole'
+import WhatAMole from 'features/WhacAMole/WhacAMole'
 import { Redirect, Route, Switch } from 'react-router-dom'
 import './App.scss'
 

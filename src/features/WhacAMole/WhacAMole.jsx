@@ -7,7 +7,7 @@ import usePersistentState from './hooks/usePersistentState'
 import gsap from 'gsap'
 import confetti from 'canvas-confetti'
 
-import './WhacAMoleFeature.scss'
+import './WhacAMole.scss'
 import { constants } from 'constants/whatAMole'
 import CountDown from './components/CountDown/CountDown'
 import Mallet from './components/Mallet/Mallet'
